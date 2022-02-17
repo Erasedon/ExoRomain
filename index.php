@@ -9,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-   <script src="js/indexjs.js"></script> 
+   <script src="assets/js/indexjs.js"></script> 
 </body>
 </html>
