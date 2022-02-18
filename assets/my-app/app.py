@@ -125,7 +125,7 @@ max1 = 100
 nombrealeatiore1 = 0  
 
 while( nombrealeatiore1 < 90):
-    nombrealeatiore1 = random.randint(0,100)
+    nombrealeatiore1 = random.randint(min1,max1)
 print (nombrealeatiore1) 
 print("\n") 
 
@@ -134,29 +134,56 @@ print("\n")
 
 print("Afficher une variable entrée manuellement par l'utilisateur\n") 
 
+print ("Veuillez entrer un nombre positif quelconque : ")
+nn = int(input())
+print("Le carré de", nn,"vaut", nn**2 ,"\n")
+
 
 # Exo  11 //
 # Exo  12 //
 
-print ("Demander à l'utilisateur d'entrer un nombre entier et afficher si ce chiffre est pair ou impair<br>") 
+print ("Demander à l'utilisateur d'entrer un nombre entier et afficher si ce chiffre est pair ou impair \n") 
  
+# Demande à l'utilisateur d'entrer un nombre
+n = int(input("Entrez un nombre: "))
+
+if (n % 2) == 0:
+   print("{0} est Paire \n".format(n)) 
+else:
+   print("{0} est Impaire \n".format(n))
+
 
 # Exo  12 //
 # Exo  13 //
 
-print ("Même exercice que n°12, mais rajouter un message d'erreur si l'utilisateur n'entre pas un nombre entier<br>") 
+print ("Même exercice que n°12, mais rajouter un message d'erreur si l'utilisateur n'entre pas un nombre entier \n") 
  
+# Demande à l'utilisateur d'entrer un nombre
+n = input("Entrez un nombre: ")
+try:
+    int(n)
+    it_is = True
+except ValueError:
+    it_is = False
+
+if (it_is == True):
+    if (int(n) % 2) == 0:
+        print("{0} est Paire \n".format(n)) 
+    else :
+         print("{0} est Impaire \n".format(n))
+elif(it_is == False):
+    print("erreur ce n'est pas un entier \n")
 
 # Exo  13 //
 # Exo  14 //
 
-print ("Demander à l'utilisateur d'entrer une année, et afficher si cette année est sextile ou bissextile<br>") 
+print ("Demander à l'utilisateur d'entrer une année, et afficher si cette année est sextile ou bissextile \n") 
  
 
 # Exo  14 //
 # Exo  15 //
 
-print ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non<br>") 
+print ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non \n") 
  
 
 # Exo  15 //

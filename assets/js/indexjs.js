@@ -103,11 +103,10 @@ console.log(nombrealeatiore);
 // exo 8 //
 // exo 9// 
 console.log("afficher 10 nombre aléatoire à partir de la fonction math.random() en utilisant une boucle \n");
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
-
-console.log(getRandomInt(100));
+console.log("Exo 9");  
+for (var ra = 0; ra < 10; ra++) {     
+  console.log(Math.floor(Math.random() * 100)); 
+}
 // exo 9// 
 // exo 10 //
 console.log("afficher des nombres aléatoires compris entre 1 et 100 et s'arreter quand le dernier chiffre est >90 \n");
