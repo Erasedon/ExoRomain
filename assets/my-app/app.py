@@ -55,24 +55,109 @@ valeurb = c
 print("La valeur de a est maintenat : ",valeura,", la valeur de b est maintenant : ",valeurb,"\n")
 
 # Exo 5 #
-# Exo 6 # 
+# Exo  6//
 
-print("Prendre deux variables en php, affecter une valeur à chaque variable, afficher le résultat de l'addition, de la soustraction, et de la multiplication de ces deux variables") 
+print("A partir d'un algorithme, définir dans tout les cas possibles quels chiffre est le plus grand (vous pouvez changer les valeurs des variables a et b pour tester toutes les possiblités) \n") 
 
-# Exo 6 #
-# Exo 7 # 
+vara = 40  
+varb = 30  
 
-print("Prendre deux variables en php, affecter une valeur à chaque variable, afficher le résultat de l'addition, de la soustraction, et de la multiplication de ces deux variables") 
+if vara > varb :
+  
+    print("La variable ",vara," est plus grand que ",varb,"") 
 
-# Exo 8 #
-# Exo 9 # 
+elif varb > vara:
+  
+    print(" La variable ",varb," est plus grand que ",vara,"") 
 
-print("Prendre deux variables en php, affecter une valeur à chaque variable, afficher le résultat de l'addition, de la soustraction, et de la multiplication de ces deux variables") 
+else :
+  print(" La variables sont égaux : ",vara ,varb, "") 
 
-# Exo 9 #
-# Exo 10 # 
+#exo 6#
+#exo 7#
 
-print("Prendre deux variables en php, affecter une valeur à chaque variable, afficher le résultat de l'addition, de la soustraction, et de la multiplication de ces deux variables") 
+print ("faire une fonction qui prend en parametres deux variables ( a et b par exemple ) et qui définis quel chiffre est le plus grand \n") 
 
-# Exo 10 #
+toto = 30  
+tata = 30  
+
+
+def comparaison(x,y) :
+    
+    if x > y :
+        resultat = " La variable "+x+" est plus grand que "+y+"" 
+    elif y > x:
+      resultat =  " La variable "+y+" est plus grand que "+x+"" 
+    else :
+      resultat =" La variables sont égaux : ",x,y,"" 
+    
+    return resultat 
+
+
+result = comparaison( toto, tata) 
+print (result) 
+# Exo  7 //
+# Exo  8 //
+print("afficher un nombre aléatoire à partir de la fonction math \n") 
+import random
+
+min = 0 
+max = 100 
+nombrealeatiore = random.randint(min,max)
+print(nombrealeatiore) 
+# Exo  8 //
+# Exo  9// 
+print("afficher 10 nombre aléatoire à partir de la fonction math.random() en utilisant une boucle \n") 
+
+def getRandomInt(max) :
+    for i in range(10):
+        print(random.randint(0,max)) 
+   
+
+getRandomInt(max) 
+# Exo  9// 
+# Exo  10 //
+print("afficher des nombres aléatoires compris entre 1 et 100 et s'arreter quand le dernier chiffre est >90 \n") 
+
+min1 = 0
+max1 = 100 
+
+nombrealeatiore1 = 0  
+
+while( nombrealeatiore1 < 90):
+    nombrealeatiore1 = random.randint(0,100)
+print (nombrealeatiore1) 
+print("\n") 
+
+# Exo  10 //
+# Exo  11 //
+
+print("Afficher une variable entrée manuellement par l'utilisateur\n") 
+
+
+# Exo  11 //
+# Exo  12 //
+
+print ("Demander à l'utilisateur d'entrer un nombre entier et afficher si ce chiffre est pair ou impair<br>") 
+ 
+
+# Exo  12 //
+# Exo  13 //
+
+print ("Même exercice que n°12, mais rajouter un message d'erreur si l'utilisateur n'entre pas un nombre entier<br>") 
+ 
+
+# Exo  13 //
+# Exo  14 //
+
+print ("Demander à l'utilisateur d'entrer une année, et afficher si cette année est sextile ou bissextile<br>") 
+ 
+
+# Exo  14 //
+# Exo  15 //
+
+print ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non<br>") 
+ 
+
+# Exo  15 //
  

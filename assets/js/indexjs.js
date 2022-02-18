@@ -123,3 +123,33 @@ while( nombrealeatiore1 < 90){
   console.log("\n");
 }
 // exo 10 //
+// exo 11 //
+
+console.log("Afficher une variable entrée manuellement par l'utilisateur\n");
+/* Code à ajouter ci-dessous */
+
+// exo 11 //
+// exo 12 //
+
+console.log ("Demander à l'utilisateur d'entrer un nombre entier et afficher si ce chiffre est pair ou impair<br>");
+/* Code à ajouter ci-dessous */
+
+// exo 12 //
+// exo 13 //
+
+console.log ("Même exercice que n°12, mais rajouter un message d'erreur si l'utilisateur n'entre pas un nombre entier<br>");
+/* Code à ajouter ci-dessous */
+
+// exo 13 //
+// exo 14 //
+
+console.log ("Demander à l'utilisateur d'entrer une année, et afficher si cette année est sextile ou bissextile<br>");
+/* Code à ajouter ci-dessous */
+
+// exo 14 //
+// exo 15 //
+
+console.log ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non<br>");
+/* Code à ajouter ci-dessous */
+
+// exo 15 //
