@@ -126,19 +126,52 @@ while( nombrealeatiore1 < 90){
 
 console.log("Afficher une variable entrée manuellement par l'utilisateur\n");
 /* Code à ajouter ci-dessous */
-
+function afficher(form2) {
+  var affi =document. form2.input.value;
+  document.form2.output.value=affi
+  console.log(affi)
+  }
 // exo 11 //
 // exo 12 //
 
 console.log ("Demander à l'utilisateur d'entrer un nombre entier et afficher si ce chiffre est pair ou impair<br>");
 /* Code à ajouter ci-dessous */
-
+function check(){
+  var nbr;
+  nbr = Number(document.getElementById("myInput").value);
+  if(nbr%2 == 0)
+  {
+         console.log("Nombre pair :"+nbr);
+  }
+  else
+  {
+         console.log("Nombre impair :"+nbr);
+  }
+}
 // exo 12 //
 // exo 13 //
 
 console.log ("Même exercice que n°12, mais rajouter un message d'erreur si l'utilisateur n'entre pas un nombre entier<br>");
 /* Code à ajouter ci-dessous */
-
+function check2(){
+  var nbr;
+   nbr=Number(document.getElementById("myInput").value);
+  if (isNaN(nbr)){
+      document.getElementById("msg").innerHTML="Entrez uniquement une valeur numérique";
+      return false;
+  }else{
+      if(nbr%2 == 0)
+      {
+             console.log("Nombre pair ");
+      }
+      else
+      {
+             console.log("Nombre impair");
+      }
+      return true;
+    
+  }
+}
 // exo 13 //
 // exo 14 //
 

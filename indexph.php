@@ -92,11 +92,11 @@ echo ("afficher des nombres aléatoires compris entre 1 et 100 et s'arreter quan
 /* Code à ajouter ci-dessous */
 
 $nombrealeatoire1 = rand(0,100);
-echo $nombrealeatoire1 ;
+echo $nombrealeatoire1;
 echo ("<br>");
 
 while( $nombrealeatoire1 < 90){
   $nombrealeatoire1 = rand(0,100);
-  echo $nombrealeatoire1 ;
+  echo $nombrealeatoire1;
   echo ("<br>");
 }
